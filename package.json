@@ -1,0 +1,29 @@
+{
+  "name": "xalen-sdk",
+  "version": "0.1.0",
+  "description": "XALEN SDK — AI Infrastructure for the Faith Economy. OpenAI-compatible.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "keywords": ["xalen", "ai", "api", "faith-tech", "astrology", "inference", "openai-compatible"],
+  "author": "XALEN Technology Pvt Ltd <sdk@xalen.io>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xalen-ai/xalen-javascript"
+  },
+  "homepage": "https://xalen.io/docs"
+}
